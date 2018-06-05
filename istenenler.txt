@@ -1,0 +1,35 @@
+-- MainBoard:
+	-- 1 x Sicaklik Sensoru giris 
+	-- 1 x Peristatik pompa (7414)
+	-- 1 x Motor3 (L6205) 24VDC/1A, CW/CCW 
+	-- 1 x ElSens mekanik buton + LED 3mm Motor3 icin
+	-- 6 x MiniDCMotor, 12VDC/1A, CW/CCW 
+	-- 6 x Mekanik Switch girisi Mini DC Motorlar icin
+	-- 2 x Step Motor, 24VDC/2A
+	-- 4 x NPN Dijital Limit switch, step motorlar icin
+	-- 2 x Rotary Encoder
+	-- 2 x Balancer RS232 girisi
+	-- 2 x RFID RS232 girisi
+	-- 2 x Dijital NPN sensor, enjektor ve bubble, 5VDC/12VDC
+	-- 3 x LED 3mm  LOW, MEDIUM, HIGH , yazilim ile kontrol
+	-- 2 x Rotary Encoderler icin batarya girisi, Low voltaj algilamasi olacak.
+
+-- Sensorlu Kart
+	-- 1 x MotorX, 12VDC/1A, CW (MJD122), ELSens kontrol baglantili
+	-- 1 x Motor1, (L6205), 24VDC/5A, CW/CCW
+	-- 1 x Motor2, (L6205), 24VDC/5A, CW/CCW
+	-- 1 x Motor4 (L6205) 24VDC/5A, CW/CCW, 
+	-- 9 x PNP sensor, Sens1,2,3,4,5,6,7,8,9 
+	-- 3 x Analog giris, AN0, AN1, AN2
+	-- 6 x Mag,12VDC cikis kontrol, MJD122 + Diyot ile
+	-- 6 x Mekanik switch
+	-- 1 x Bluetooth Modul, Mag lar ve Switch ler kontrolu icin,
+	-- 1 x Real Time Logger, MAG lar ve Switchler icin 
+	-- MAG lar, Switch ler ve BT modul icin aku girisi, Low voltaj algilamasi olacak.
+
+-- SSR Roleli Kart
+	-- 21 x SSR Role, 220VAC/2.2A (Bu SSR ler Test edildi. Sorun yok )
+	-- 8 x Buton girisi
+	-- 8 x Limit switch girisi 
+	-- 4 x Ara guvenlik switch girisi 
+	-- 4 x Solenoid cikis (MJD122 + Diyot)
